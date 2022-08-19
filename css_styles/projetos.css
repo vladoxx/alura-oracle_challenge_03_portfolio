@@ -1,0 +1,127 @@
+/* Experiência Profissional */
+
+.projetos {
+    padding: 32px;
+    text-align: center;
+    background: #e3f6f5;
+}
+
+.projetos .formacao_caixas {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.repositorios {
+    background-color: #bae8e8;
+    padding: 6px;
+    width: 100%;
+    height: 120px;
+}
+
+.repositorios img {
+    margin: auto;
+    width: 70px;
+    height: 110px;
+}
+
+.repositorios:hover {
+    cursor: pointer;
+    background-color: rgb(159, 235, 221);
+}
+
+.repositorios h3 strong {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.data_projetos {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+
+.informacao {
+    margin-top: 8px;
+}
+
+.informacao h3 {
+    margin-top: 8px;
+}
+
+.informacao, .buttons {
+    margin-top: 8px;
+}
+
+.buttons {
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+}
+
+.buttons button {
+    width: 85px;
+    text-decoration: none;
+    padding: 3px;
+    border: solid #255774 1.5px;
+    border-radius: 7px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: #255774;
+    transition: 0.7s;
+    color: #e3f6f5;
+}
+
+
+@media (min-width: 768px) {
+    .projetos .formacao_caixas {
+        gap: 16px;    
+    }
+    
+    .repositorios {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .repositorios img {
+        width: 200px;
+        height: 288px;
+    }
+    
+    #jogo_da_forca {
+        width: 350px;
+        height: 280px;
+    }
+ 
+    .buttons button {
+        width: 91px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .projetos {
+        padding: 32px 71px;
+    }
+
+    .projetos h2 {
+        padding: 0 0 16px 0;
+    }
+
+    .projetos .informacao {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .projetos .data_projetos {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

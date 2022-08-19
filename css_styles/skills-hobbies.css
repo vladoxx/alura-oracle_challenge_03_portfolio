@@ -1,0 +1,129 @@
+/* Skills */
+
+.skills {
+    padding: 16px 16px 0;
+    text-align: center;
+    background: #e3f6f5;
+}
+
+.skills_imagems {
+    margin: 32px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 16px;
+}
+
+.skills_imagems div {
+    background-color: #bae8e8;
+    text-align: center;
+    padding: 16px;
+    height: 81px;
+}
+
+.skills_imagems div img {
+    width: 32px;
+    height: 32px;
+}
+
+.skills_imagems div:hover {
+    cursor: pointer;
+    background-color: rgb(159, 235, 221);
+}
+
+
+/* Hobbies */
+
+.hobbies {
+    padding: 0 16px;
+    text-align: center;
+    background: #e3f6f5;
+}
+
+.hobbies_imagems {
+    margin: 32px 0 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 16px;
+}
+
+.hobbies_imagems div {
+    background-color: #bae8e8;
+    text-align: center;
+    padding: 16px;
+    height: 81px;
+}
+
+.hobbies_imagems div:hover {
+    cursor: pointer;
+    background-color: rgb(159, 235, 221);
+}
+
+@media (min-width: 768px) {
+    .skills {
+        padding: 32px 32px 0;
+    }
+    
+    .skills_imagems div {
+        height: 90px;
+    }
+    
+    .skills_imagems div img {
+        width: 45px;
+        height: 45px;
+    }
+     
+    /* Hobbies */
+    
+    .hobbies {
+        padding: 0 32px 16px;
+    }
+     
+    .hobbies_imagems div {
+        height: 90px;
+    }
+    
+    .hobbies_imagems div img {
+        width: 45px;
+        height: 45px;
+    } 
+}
+
+@media (min-width: 1024px) {
+    .skills {
+        padding: 32px 71px 0;
+    }
+
+    .skills_imagems {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .skills_imagems div {
+        height: 138px;
+        border-radius: 3%;
+    }
+    
+    .skills_imagems div img {
+        width: 90px;
+        height: 90px;;
+    }
+     
+    /* Hobbies */
+    
+    .hobbies {
+        padding: 0 71px 64px;
+    }
+     
+    .hobbies_imagems {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .hobbies_imagems div {
+        height: 120px;
+        border-radius: 3%;
+    }
+    
+    .hobbies_imagems div img {
+        width: 70px;
+        height: 70px;;
+    } 
+}

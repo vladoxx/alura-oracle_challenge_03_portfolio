@@ -1,0 +1,122 @@
+.contato {
+    width: 100%;
+    padding: 16px 32px;
+    background: #255774;
+}
+
+.form_p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #b0deda;
+}
+
+.contato h2 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: black
+}
+
+form {
+    text-align: center;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_group {
+    position: relative;
+}
+
+.form_group p {
+    margin-top: 2px;
+    color: #b0deda;
+    font-size: 12px;
+}
+
+form input {
+    width: 100%;
+    margin-top: 32px;
+    height: 56px;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #031824;
+}
+
+form span {
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    pointer-events: none;
+    transition: .5;
+}
+
+form textarea {
+    width: 100%;
+    margin: 32px 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    outline: none;
+    resize: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #13415b;
+}
+
+form input:focus ~ span,
+form textarea:focus ~ span,
+form input:valid ~ span,
+form textarea:valid ~ span
+{
+    transform: translateY(-40px);
+    font-size: 14px;
+    color: #b0deda;
+    transition: .35s;
+}
+
+form button {
+    margin: 32px auto 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    width: 151px;   
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: #b0deda;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #13415b;
+    color: #b0deda;
+    border: 1px solid #b0deda;
+}
+
+@media (min-width: 1024px) {
+    .contato {
+        padding: 71px 71px 35px;
+    }
+
+    .contato h2 {
+        font-weight: 700;
+        font-size: 32px;    }
+}
+
+

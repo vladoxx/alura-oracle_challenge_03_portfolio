@@ -1,0 +1,133 @@
+.formacao {
+    padding: 32px;
+    text-align: center;
+    background: #255774;
+}
+
+.formacao .formacao_caixas {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.logos {
+    background-color: rgb(255, 255, 255);
+    padding: 17px;
+    width: 100%;
+    height: 90px;
+}
+
+.logos img {
+    margin: auto;
+    width: 84px;
+    height: 55px;
+}
+
+.logos:hover {
+    cursor: pointer;
+    background-color: rgb(203, 220, 243);
+}
+
+.logos h3 strong {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.data_formacao {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #b0deda;
+}
+
+.data_formacao a {
+    text-decoration: none;
+    color: #b0deda;
+}
+
+.data_formacao a:hover {
+    cursor: pointer;
+    color: rgb(90, 192, 158);
+}
+
+.informacao {
+    margin-top: 8px;
+}
+
+.informacao h3 {
+    margin-top: 8px;
+}
+
+
+@media (min-width: 768px) {
+    .formacao {
+        padding: 32px;
+    }
+
+    #formacao_academica {
+        margin-bottom: 32px;
+    }
+    
+    .formacao .formacao_caixas {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .formacao_caixas div .informacao {
+        text-align: center;
+    }
+    
+    .logos {
+        padding: 17px;
+        width: auto;
+        height: 180px;
+    }
+    
+    .logos img {
+        margin-top: 10px;
+        width: 148px;
+        height: 120px;
+    }   
+}
+
+@media (min-width: 1024px) {
+    .formacao {
+        padding: 64px 71px;
+    }
+    
+    .formacao .formacao_caixas {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .formacao_caixas div .informacao {
+        text-align: center;
+    }
+    
+    .logos {
+        padding: 17px;
+        height: 172px;
+        border-radius: 3%;
+    }
+    
+    .logos img {
+        margin-top: 10px;
+        width: 128px;
+        height: 100px;
+    }   
+
+    .data_formacao {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+  
+
+
+}

@@ -1,0 +1,40 @@
+.sobre-mim {
+    padding: 16px;
+    background: #255774;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.sobre-mim p {
+    margin: 16px 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #b0deda;
+}
+
+@media (min-width: 768px) {
+    .sobre-mim {
+        padding: 32px;
+        font-size: 20px;
+    }
+
+    .sobre-mim p {       
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+     .sobre-mim {
+        padding: 64px 71px;
+    }
+
+    .sobre-mim p {       
+        font-size: 18px;
+        line-height: 22px;
+        width: 65%;
+    }
+}

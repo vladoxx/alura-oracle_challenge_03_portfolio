@@ -1,0 +1,27 @@
+footer {
+    margin-top: 40px;
+    background: #e3f6f5;
+}
+
+footer  {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+
+.top_button {
+    background-color: #255774;
+    padding: 5px;
+    border-radius: 100%;
+    margin-right: -85%;
+    margin-bottom: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.top_button a {
+    text-decoration: none;
+}
